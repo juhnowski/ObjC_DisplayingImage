@@ -26,4 +26,7 @@
 }
 
 
+- (IBAction)showImage:(id)sender {
+    self.imageView.image = [UIImage imageNamed:@"image1.jpeg"];
+}
 @end
